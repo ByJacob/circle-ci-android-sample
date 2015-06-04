@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">CircleCiSample</string>
+
+    <string name="hello_circle_ci">Hello CircleCI!</string>
+    <string name="action_settings">Settings</string>
+</resources>
