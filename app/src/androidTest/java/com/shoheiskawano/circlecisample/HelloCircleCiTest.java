@@ -21,6 +21,6 @@ public class HelloCircleCiTest extends ActivityInstrumentationTestCase2<MainActi
     }
 
     public void testHelloCircleCiString() {
-        assertEquals(mTextView.getText().toString(), "fail");
+        assertEquals(mTextView.getText().toString(), getActivity().getResources().getString(R.string.hello_circle_ci));
     }
 }
